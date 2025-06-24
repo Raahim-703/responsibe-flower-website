@@ -1,0 +1,38 @@
+/* shered style */
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 10%;
+    gap: 2%;
+}
+
+.header-text {
+    width: 50%;
+}
+
+.header-section {
+    background-color: #e3cdd1;
+    max-width: 1280px;
+}
+
+.header-section img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 900;
+    color: #272727;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E55473;
+    border: none;
+}
