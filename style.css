@@ -13,7 +13,7 @@
 
 .header-section {
     background-color: #e3cdd1;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .header-section img {
@@ -21,8 +21,9 @@
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
     color: #272727;
+    font-size: 40px;
 }
 
 .text {
@@ -35,4 +36,43 @@ h1 {
     color: white;
     background-color: #E55473;
     border: none;
+}
+
+/* part-2 style */
+.part-2 {
+    margin-top: 178px;
+}
+
+.part-text {
+    max-width: 590px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.featured-heading {
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:576px) {
+    .display-flex {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .header-text {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .display-flex {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .header-text {
+        width: 100%;
+        margin-left: 20px;
+    }
 }
