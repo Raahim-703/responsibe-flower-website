@@ -2,7 +2,9 @@
 .color {
     color: #E55473;
 }
-
+.white{
+    color: white;
+}
 .mt {
     margin-top: 10%;
 }
@@ -169,6 +171,7 @@ img {
     max-width: 78%;
     background-image: url('Flower Asset/Rectangle\ 9.png');
     margin: 10% auto;
+    background-size: cover;
 }
 
 .part-6-container {
@@ -182,6 +185,17 @@ input {
     border-radius: 5px;
     border: none;
     width: 50%;
+}
+
+.part-7 {
+    background-color: rgba(17, 16, 16, 1);
+    height:50vh;
+}
+
+.part-7-text {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
 }
 
 @media screen and (max-width:576px) {
