@@ -1,4 +1,7 @@
 /* shered style */
+.color{
+    color: #E55473;
+}
 .display-flex {
     display: flex;
     justify-content: space-around;
@@ -126,11 +129,30 @@ img {
     margin-top: -150px;
 }
 
+.part-4 {
+    max-width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 150px;
+}
+
+.part-4-text {
+    max-width: 530px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.part-4-container {
+    display: flex;
+    max-width: 80%;
+    margin: 0px auto;
+}
+
 @media screen and (max-width:576px) {
 
     .display-flex,
     .card-parents,
-    .box-container {
+    .box-container
+    ,.part-4-container {
         flex-direction: column;
         margin: 0px;
     }
@@ -156,14 +178,16 @@ img {
         text-align: center;
         padding: 20px;
     }
-    .part-3{
+
+    .part-3 {
         margin-top: -150px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    .display-flex 
-    ,.box-container{
+
+    .display-flex,
+    .box-container {
         flex-direction: column;
         margin: 0px;
     }
@@ -179,6 +203,7 @@ img {
         width: 100%;
         margin-left: 20px;
     }
+
     .box {
         max-width: 80%;
         align-items: center;
