@@ -1,7 +1,12 @@
 /* shered style */
-.color{
+.color {
     color: #E55473;
 }
+
+.mt {
+    margin-top: 10%;
+}
+
 .display-flex {
     display: flex;
     justify-content: space-around;
@@ -46,7 +51,8 @@ h1 {
     margin-top: 178px;
 }
 
-.part-text {
+.part-text,
+.part-5-text {
     max-width: 590px;
     text-align: center;
     margin: 0px auto;
@@ -132,33 +138,66 @@ img {
 .part-4 {
     max-width: 100%;
     background-color: rgba(229, 84, 115, 0.05);
-    margin-top: 150px;
 }
 
 .part-4-text {
     max-width: 530px;
-    margin-top: 20%;
     text-align: center;
+    margin-top: 20%;
 }
 
 .part-4-container {
     display: flex;
     max-width: 80%;
     margin: 0px auto;
+    padding-bottom: 6%;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    max-width: 76%;
+    margin: 0px auto;
+    gap: 1%;
+    margin-left: 8%;
+}
+
+.part-6 {
+    max-width: 78%;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    margin: 10% auto;
+}
+
+.part-6-container {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
 }
 
 @media screen and (max-width:576px) {
 
     .display-flex,
     .card-parents,
-    .box-container
-    ,.part-4-container {
+    .box-container,
+    .part-4-container,
+    .image-container {
         flex-direction: column;
         margin: 0px;
     }
 
     .card-parents,
-    .box-container {
+    .box-container,
+    .part-4-container {
         justify-content: center;
         align-items: center;
     }
@@ -182,6 +221,7 @@ img {
     .part-3 {
         margin-top: -150px;
     }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -197,6 +237,11 @@ img {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 90px;
         gap: 0px;
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .header-text {
